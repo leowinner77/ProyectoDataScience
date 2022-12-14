@@ -1,0 +1,83 @@
+---
+title: "Propuesta del proyecto final"
+author: "Diego Alvarez, Leonardo Aponte, Samuel Vera"
+date: "2022-12-12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Propuesta del Proyecto
+
+### **_Miembros del equipo_**
+
+Trabajo conformado por:
+ 
+ •	**Alvarez, Diego**
+ 
+ •	**Aponte, Leonardo**
+ 
+ •	**Vera, Samuel**
+
+### **_Tópico a abordar/interrogante(s) a ser contestada(s)_**
+
+El tópico a abordar es el sector de la energía en Estados Unidos, haciendo énfasis en las energías existente, tanto las renovables y/o limpias como las no renovables y/o sucias, y su impacto económico en los rendimientos obtenidos y en el medio ambiente. En pocas palabras, para esta entrega se tiene como objetivo indagar en el mercado y sector de la energía estadounidense, para así ampliar la visión ambientalista y económica detrás del mismo, con el establecimiento de hechos y pensamiento critico que por consiguiente refleje en el lector un interés y un nuevo conocimiento, esto se propone lograr dando respuesta a las siguientes interrogantes además de un análisis general del sector:
+
+_¿Cuál es la relación de la generación de energía según su naturaleza con las emisiones de dióxido de carbono? ¿Existe una diferencia entre la energía renovable y la no renovable, en el impacto ambiental y en el impacto económico? ¿Qué porcentaje del PIB es explicado por la generación de energía, es posible la segregación por su naturaleza?_
+
+_¿Qué características tienen estas energías? ¿Existe alguna diferencia en su rentabilidad o en su estructura intrínseca?_
+
+_¿Qué acontecimientos históricos han marcado al sector? ¿Qué aprendizaje dejo la cuarentena debido al COVID 19 en el sector?_
+
+_¿El cambio climático y los objetivos 2030, favorecen o perjudican? (entiéndase a nivel ambiental pero también a nivel económico)_ 
+	
+Cabe destacar que, durante el trabajo se definirán el proxy de energía renovable y no renovable a ser evaluadas, dejando como abre boca al lector a la energía nuclear y las principales energías renovables como el proxy de las energías limpias.
+
+![](https://www.elcolombiano.com/binrepository/1004x565/112c0/780d565/none/11101/LEJA/shutterstock-1700360854_40019567_20220522181957.jpg)
+
+### **_Título propuesto del proyecto_**
+
+_Una visión crítica del impacto ambiental y económico del sector y mercado de la energía en Estados Unidos_
+
+### **_Justificación del tópico elegido_**
+
+El tópico elegido posee gran importancia en la actualidad, esto pues, debido al cambio de energías de las no renovables a las renovables, el cambio climático, y como este dilema que afecta a toda la humanidad impacta al sector de la energía. Es por ello, que el debate de las energías renovables, no renovables y los gases de efecto invernadero están más vividos que nunca, según Holger T. Schubert: “sin duda, las partículas de radiación invisibles proporcionarán a las personas más energía diariamente que todos los recursos fósiles restantes del mundo”. Esta frase célebre, deja ver el potencia de las energías renovables y el porque de la importancia de cada estudio que de pie y favorezca la balanza hacia el cambio y hacia la naturaleza, la disyuntiva del asunto es que es imposible por razones de demanda cambiar tan rápido un sistema energético nacional, si se habla de USA, y más imposible aun cambiar uno global donde países aun sobreviven con energías tan sucias como las generadas por el carbón. De allí que, este estudio mediante las respuestas a las preguntas planteadas de luces y una visión general al lector interesado, del porque de este tema en la mesa de todos los gobiernos de cara a los objetivos ambientales de la agenda 2030.  
+     
+### **_Descripción de datos a utilizar_**
+
+Se utilizarán datos tales como; PIB, Producción de petróleo, Emisiones de dióxido de carbono, Participación nuclear en la generación neta de electricidad, Generación de energías por fuentes renovables y no renovables, con datos suministrados por la pagina ourworldindata y U.S. Energy Information Administration. En estos datos se engloban variables de carácter cuantitativo, expresados en unidades monetarias, cantidades producidas y generación de energía. La periodicidad del estudio será anual desde 2000 hasta el 2021.
+     
+Aspectos claves para el entendimiento:
+
+•	Cambio climático: "El cambio climático es un proceso constante de deterioro de las condiciones de vida en el planeta. Va de la mano de diversos efectos en las condiciones climáticas y el aumento de las temperaturas" (Sánchez, 2021, párr. 1)
+
+![](https://media.iatiseguros.com/wp-content/uploads/2019/05/04011421/cambio-climatico-causas-consecuencias-2.jpg)
+
+•	Energía renovable y no renovables: 
+
+"Las energías renovables son un tipo de energías derivadas de fuentes naturales que llegan a reponerse más rápido de lo que pueden consumirse. Un ejemplo de estas fuentes es, por ejemplo, la luz solar y el viento; estas fuentes se renuevan continuamente. Las fuentes de energía renovable abundan y las encontramos en cualquier entorno" (ONU, 2022, párr. 1). 
+
+"Por el contrario, los combustibles fósiles, como el carbón, el petróleo y el gas, constituyen fuentes de energía no renovables que tardan cientos de millones de años en formarse. Los combustibles fósiles producen la energía al quemarse, lo que provoca emisiones dañinas en forma de gases de efecto invernadero, como el dióxido de carbono" (ONU, 2022, párr. 2)
+
+
+•	Hecho económico: "Un hecho económico, también llamado fenómeno económico, es la manifestación en la realidad de un suceso con impacto en la economía de un territorio" (López, 2020, párr. 1)
+
+![](https://palt.es/wp-content/uploads/2021/07/economia.jpg)
+
+### **_Metodología a utilizar para dar respuesta al planteamiento_**
+Se utilizará una metodología de carácter explicativo-analítico que de cabida a un análisis ambiental y económico de sector de la energía en USA, objetivo del presente estudio. Es así como, primero, se descargarán los datos a utilizar con Excel o cvs o cualquiera sea el formato, segundo, se realizará un procesamiento y limpieza de los datos con RStudio, tercero, se intentará realizar una regresión lineal donde se explique a las emisiones de dióxido de carbono, cuarto, describirán los datos de forma estadística y por último, se conseguirán las conclusiones derivadas de las respuestas a las preguntas.
+
+### **_Referencias_**
+
+https://www.eia.gov/electricity/data.php
+
+https://ourworldindata.org/
+
+https://expandetumente.com/80-mejores-frases-de-energias-renovables/
+
+https://www.un.org/es/climatechange/what-is-renewable-energy
+
+https://economipedia.com/
+
